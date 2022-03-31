@@ -197,6 +197,17 @@ h1{
   /* -------------------------------------- */
 
 
-  
+  @media all and (max-width:900px){
+	  .flex-nav * {
+		  width:70%;
+		  height:50%
+	  }
+	  #winnerText{
+		  width:50%;
+	  }
+	  #loserText{
+		  width:50%;
+	  }
+  }
 
 
