@@ -200,7 +200,7 @@ h1{
   @media all and (max-width:1000px){
 	  .flex-nav * {
 		  width:50%;
-		  height:50%
+		  height:auto;
 	  }
 	  #winnerText{
 		  font-size: 400%;
@@ -224,8 +224,8 @@ h1{
 
   @media all and (max-width:500px){
 	  .flex-nav * {
-		  height:50%;
 		  width:50%;
+		  height:auto;
 	  }
 	  #winnerText{
 		  font-size:300% ;
