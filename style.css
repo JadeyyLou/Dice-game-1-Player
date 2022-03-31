@@ -199,17 +199,23 @@ h1{
 
   @media all and (max-width:900px){
 	  .flex-nav * {
-		  width:70%;
+		  width:80%;
 		  height:50%
 	  }
 	  #winnerText{
-		  font-size: 350%;
+		  font-size: 300%;
 	  }
 	  #loserText{
 		  font-size:350%;
 	  }
 	  #game{
-		  width:65%
+		  width:75%;
+		  height:70%;
+	  }
+	  #image{
+		  width:50%;
+		  height:80%;
+		  margin:10px;
 	  }
   }
 
