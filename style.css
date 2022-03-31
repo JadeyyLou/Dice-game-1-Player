@@ -203,10 +203,10 @@ h1{
 		  height:50%
 	  }
 	  #winnerText{
-		  width:50%;
+		  font-size: 350%;
 	  }
 	  #loserText{
-		  width:50%;
+		  font-size:350%;
 	  }
   }
 
