@@ -197,26 +197,51 @@ h1{
   /* -------------------------------------- */
 
 
-  @media all and (max-width:900px){
+  @media all and (max-width:1000px){
 	  .flex-nav * {
 		  width:50%;
 		  height:50%
 	  }
 	  #winnerText{
-		  font-size: 300%;
+		  font-size: 400%;
 	  }
 	  #loserText{
-		  font-size:350%;
+		  font-size:550%;
 	  }
 	  #game{
 		  width:85%;
-		  height:80%;
+		  height:auto;
 	  }
 	  #image{
 		  width:50%;
-		  height:60%;
+		  height:auto;
 		  margin:10px;
 	  }
   }
+
+  @media all and (max-width:500px){
+	  .flex-nav * {
+		  height:50%;
+		  width:50%;
+	  }
+	  #winnerText{
+		  font-size:300% ;
+		  width:90%;
+		  background-color:rgb(255, 255, 255,0.8);
+		  border-radius:5px;
+	  }
+	  #loserText{
+		  font-size: 350%;
+	  }
+	  #game{
+		  width:80%;
+		  height:auto;
+	  }
+	  #image{
+		  width:50%;
+		  height:auto;
+		  margin:10px;
+	  }
+	}
 
 
