@@ -1,0 +1,202 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.animatedGradient {
+	animation: animateBg 15s linear infinite;
+	background-image: linear-gradient(90deg,#bd4faf,#5794db,#45b9e1,#e63b7a,#bd4faf,#5794db);
+	background-size: 500% 100%;;
+	background-size: 700% 100%;
+  }
+ 
+@keyframes animateBg {
+	0% { background-position: 0% 0%; }
+	100% { background-position: 100% 0%; }
+  }
+  
+  
+
+body{
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	
+	display: inline;
+	/* border: 1px solid blue; */
+	width: 100%;
+	color:white;
+	font-size: 80px;
+}
+
+.header{
+	margin:10px;
+	/* border: 3px solid green; */
+	text-align: center;
+	width:100%;
+	font-size: 100%;
+	font-weight: 700;
+	color:white;
+}
+
+#image{
+	max-width: 100%;
+	max-height:100%;
+	width:200px;
+	height:200px;
+	background-color:rgb(253, 147, 255);
+	border-radius: 15%;
+	margin:10%;
+}
+.scoreContainer{
+	border: 1px solid rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255,0.5);
+	padding: 10px;
+	border-radius:5px;
+	width: 80%;
+}
+
+#click{
+	/* border: 1px solid purple; */
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin:15px;
+	font-size: 20px;
+	color:white;
+	font-weight: 500;
+	
+	
+}
+
+#game{
+	
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(255, 255, 255, 0.3);
+	border: 8px double white ;
+	height: 590px;
+	width:450px;
+	border-radius:20px;
+}
+/* roll button settings------------ */
+#roll{
+	border:none;
+	max-height: 100%;
+	max-width:100%;
+	width:100px;
+	height:30px;
+	border-radius:10px;
+	background-color: white;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#restartBtn{
+	border:none;
+	max-height:100%;
+	max-width:100%;
+	width:150px;
+	height:40px;
+	border-radius:10px;
+	background-color:rgb(247, 192, 255);
+	font-size:17px;
+	font-weight: bold;
+} 
+/* animated winner and loser pages---------- */
+#winnerText{
+	position:absolute;
+	top:40%;
+	width:100%;
+	text-align:center;
+	width:100%;
+	height:10%;
+	background-color:rgba (0,0,0,0.5);
+	z-index: 2;
+	font-size:100px;
+	animation:pulse 2s infinite;
+}
+@keyframes pulse {
+	0%{
+		color: blue;
+	}
+	50%{
+		color:rgb(0, 195, 255);
+	}
+	100%{
+		color:#bd4faf;
+	}
+}
+
+#loserText{
+	position:absolute;
+	top:40%;
+	width:100%;
+	text-align:center;
+	width:100%;
+	height:10%;
+	font-weight: bold;
+	background-color:rgba (0,0,0,0.5);
+	z-index: 2;
+	font-size:100px;
+	animation: bounce 1s ease-in-out 0s infinite normal none;
+	color:red;
+}
+
+@keyframes bounce {
+	0% {
+	  animation-timing-function: ease-in;
+	  opacity: 1;
+	  transform: translateY(-45px);
+	}
+  
+	24% {
+	  opacity: 1;
+	}
+  
+	40% {
+	  animation-timing-function: ease-in;
+	  transform: translateY(-24px);
+	}
+  
+	65% {
+	  animation-timing-function: ease-in;
+	  transform: translateY(-12px);
+	}
+  
+	82% {
+	  animation-timing-function: ease-in;
+	  transform: translateY(-6px);
+	}
+  
+	93% {
+	  animation-timing-function: ease-in;
+	  transform: translateY(-4px);
+	}
+  
+	25%,
+	55%,
+	75%,
+	87% {
+	  animation-timing-function: ease-out;
+	  transform: translateY(0px);
+	}
+  
+	100% {
+	  animation-timing-function: ease-out;
+	  opacity: 1;
+	  transform: translateY(0px);
+	}
+  }
+  /* -------------------------------------- */
+
+
+  
+
+
