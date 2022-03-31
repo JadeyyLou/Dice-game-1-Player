@@ -199,7 +199,7 @@ h1{
 
   @media all and (max-width:900px){
 	  .flex-nav * {
-		  width:80%;
+		  width:50%;
 		  height:50%
 	  }
 	  #winnerText{
@@ -211,11 +211,10 @@ h1{
 	  #game{
 		  width:85%;
 		  height:80%;
-		  border:none;
 	  }
 	  #image{
 		  width:50%;
-		  height:80%;
+		  height:60%;
 		  margin:10px;
 	  }
   }
