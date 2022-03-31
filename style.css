@@ -204,6 +204,9 @@ h1{
 	  }
 	  #winnerText{
 		  font-size: 400%;
+		  width:90%;
+		  background-color:rgb(255, 255, 255,0.8);
+		  border-radius:5px;
 	  }
 	  #loserText{
 		  font-size:550%;
