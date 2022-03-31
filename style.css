@@ -209,8 +209,9 @@ h1{
 		  font-size:350%;
 	  }
 	  #game{
-		  width:75%;
-		  height:70%;
+		  width:85%;
+		  height:80%;
+		  border:none;
 	  }
 	  #image{
 		  width:50%;
